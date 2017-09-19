@@ -21,3 +21,11 @@ Berksfile.lock
 Policyfile.lock.json
 
 .DS_Store
+/cookbooks
+
+# Bundler
+bin/*
+.bundle/*
+
+.kitchen/
+.kitchen.local.yml
